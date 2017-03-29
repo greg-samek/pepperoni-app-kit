@@ -10,7 +10,7 @@ import {
 const {PropTypes: NavigationPropTypes} = NavigationExperimental;
 
 class TabBar extends Component {
-  static displayName = 'TabBars';
+  static displayName = 'TabBar';
 
   static propTypes = {
     tabs: NavigationPropTypes.navigationState.isRequired,
